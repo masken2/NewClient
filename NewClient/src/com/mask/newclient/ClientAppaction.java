@@ -1,7 +1,6 @@
 package com.mask.newclient;
 
 import android.app.Application;
-import android.view.WindowManager;
 
 public class ClientAppaction extends Application{
 	
