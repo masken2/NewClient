@@ -4,8 +4,9 @@ import android.app.Application;
 
 public class ClientAppaction extends Application{
 	/**
-	 * »ñÈ¡ÆÁÄ»¿í¸ß
+	 * ï¿½ï¿½È¡ï¿½ï¿½Ä»ï¿½ï¿½ï¿½
 	 */
+	
 	public static int  ScreenWidth = 0;
 	public static int ScreenHeight = 0;
 	
