@@ -4,7 +4,7 @@ import android.app.Application;
 
 public class ClientAppaction extends Application{
 	/**
-	 * ��ȡ��Ļ���
+	 * 获取屏幕的宽高
 	 */
 	
 	public static int  ScreenWidth = 0;
