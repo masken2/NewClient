@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.mask.newclient.GuideActivity"></activity>
+        <activity android:name="com.mask.newclient.MainActivity"></activity>
     </application>
 
 </manifest>

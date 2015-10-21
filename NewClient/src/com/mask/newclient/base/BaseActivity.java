@@ -7,7 +7,7 @@ import android.view.Window;
 import android.widget.Toast;
 
 /**
- * ÏîÄ¿»ù´¡Àà
+ * ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  *@author zhuangAH
  *@date 2015-10-20	
  *
@@ -26,14 +26,14 @@ public class BaseActivity extends  Activity{
 		onKeyDown(keyCode, event);
 	}
 	/**
-	 * ·µ»Ø¼ü£¬Á½´Î»ØÍË³ö
+	 * ç¨‹åºè¿”å›
 	 */
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
 		if(keyCode==KeyEvent.KEYCODE_BACK && event.getAction()==KeyEvent.ACTION_DOWN)
 		{
 			if((System.currentTimeMillis()-exitTime) > 2000){ 
-				Toast.makeText(getApplicationContext(), "ÔÙ°´Ò»´ÎÍË³ö³ÌĞò", Toast.LENGTH_SHORT).show(); 
+				Toast.makeText(getApplicationContext(), "å†ç‚¹å‡»ä¸€æ¬¡é€€å‡º", Toast.LENGTH_SHORT).show(); 
 				exitTime = System.currentTimeMillis(); 
 				} else {
 				finish();

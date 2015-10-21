@@ -50,6 +50,7 @@ public class GuideActivity extends Activity {
             @Override
             public void onClick(View v) {
                 UIHelperUtils.toMainActivity(context);
+                finish();
             }
         });
         adapter =new GurideAdapter(viewList,this);

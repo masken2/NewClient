@@ -6,7 +6,7 @@ import android.view.KeyEvent;
 import com.mask.newclient.base.BaseActivity;
 
 /**
- * ³ÌĞòÖ÷½çÃæ
+ * ä¸»ç•Œé¢
  *@author zhuangAH
  *@date 2015-10-20	
  *
