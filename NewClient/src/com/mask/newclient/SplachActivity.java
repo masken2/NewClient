@@ -1,20 +1,18 @@
 package com.mask.newclient;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.mask.newclient.base.BaseActivity;
 import com.mask.newclient.common.UIHelperUtils;
 
-public class SplachActivity extends BaseActivity{
+public class SplachActivity extends Activity{
 
 	private Handler handler =new Handler();
 	private SharedPreferences sp; 
-	
-	private Boolean isFirst=true;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
